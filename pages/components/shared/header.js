@@ -29,7 +29,8 @@ export default function Header() {
     </Nav>
     <Form inline>
       <Button variant="outline-success" className="mr-5" href="Brochure Macgregor FR.pdf" download><Download color="green" size={20} /> Brochure_Fr</Button>
-      <Button variant="outline-success" href="Macgregor Marine Services Brochure EN.pdf" download><Download color="green" size={20} /> Brochure_En</Button>
+      <Button variant="outline-success"className="mr-5" href="Macgregor Marine Services Brochure EN.pdf" download><Download color="green" size={20} /> Brochure_En</Button>
+      <Button variant="outline-success" href="Brochure Portugais.pdf" download><Download color="green" size={20} /> Brochure_Portugais</Button>
     </Form>
   </Navbar.Collapse>
 </Navbar> 
