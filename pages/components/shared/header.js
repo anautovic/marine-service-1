@@ -25,13 +25,13 @@ export default function Header() {
       <AppLink href="/services"><a className="nav-link mr-3 ">Services et marchés</a></AppLink>
       <AppLink href="/particuliers"> <a className="nav-link mr-3 ">Partenaires</a></AppLink>
       <AppLink href="/contact"> <a className="nav-link mr-3 ">Contact</a></AppLink>
-     
+      <NavDropdown title="Brochure" id="basic-nav-dropdown">
+        <NavDropdown.Item variant="outline-success" href="Brochure Macgregor FR.pdf" download><Download color="green" size={20} /> Brochure_Fr</NavDropdown.Item>
+        <NavDropdown.Item variant="outline-success" href="Macgregor Marine Services Brochure EN.pdf" download><Download color="green" size={20} /> Brochure_En</NavDropdown.Item>
+        <NavDropdown.Item variant="outline-success" href="Brochure Portugais.pdf" download><Download color="green" size={20} /> Brochure_Portugais </NavDropdown.Item>
+        <NavDropdown.Divider />
+      </NavDropdown>
     </Nav>
-    <Form inline>
-      <Button variant="outline-success" className="mr-5" href="Brochure Macgregor FR.pdf" download><Download color="green" size={20} /> Brochure_Fr</Button>
-      <Button variant="outline-success"className="mr-5" href="Macgregor Marine Services Brochure EN.pdf" download><Download color="green" size={20} /> Brochure_En</Button>
-      <Button variant="outline-success" href="Brochure Portugais.pdf" download><Download color="green" size={20} /> Brochure_Portugais</Button>
-    </Form>
   </Navbar.Collapse>
 </Navbar> 
 <Carousel>
