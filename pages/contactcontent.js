@@ -10,7 +10,7 @@ import { GeoAlt,TelephoneFill,EnvelopeFill } from 'react-bootstrap-icons';
         class Contactcontent extends Component {
             state = {
               viewport: {
-                width: '400px',
+                width: '300px',
                 height: '300px',
                 latitude: 0.335362,
                 longitude: 6.729528,
@@ -28,9 +28,12 @@ return(
           <h5 className= "text-center">  Tel: +33 749 449 619/ +239 991 17586</h5>
           <h5 className= "text-center"> Location: Rue morta, ao lado do BISTP Sao Tomé et principe</h5>
           <h5 className= "text-center"> Mail: info@macgregor-ms.com</h5>
+          <h5 className= "text-center"> <a  href="https://www.facebook.com/MacGregorMarineServices/"><FacebookIcon size={40} round={true} /> </a> <a href="https://www.linkedin.com/in/macgregor-marine-services/"> <LinkedinIcon size={40} round={true} /></a><a href="https://www.instagram.com/macgregor_marineservices/"> <InstapaperIcon size={40} round={true} /></a></h5>
           <br></br>
-         <a href=""><FacebookIcon size={40} round={true} /> </a>  <LinkedinIcon size={40} round={true} /> <InstapaperIcon size={40} round={true} />
-
+<div className= "reseau">
+         
+         </div>
+<br></br>
           
           </div>
     <Row className="mt-5">
@@ -62,8 +65,13 @@ return(
     .contain{
 width:100%;
 height:200px;
-color: #002e5d;
+color: #0070f3;
 
+    }
+    .reseau{
+      margin-bottom:5px;
+      margin-top:4px;
+      text-align: center;
     }`
 }
     </style>
