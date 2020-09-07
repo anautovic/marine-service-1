@@ -2,7 +2,7 @@ import { Row, Col, Card, Container } from 'react-bootstrap';
 import { CorporateContactJsonLd } from 'next-seo';
 
 import { GeoAlt,TelephoneFill,EnvelopeFill } from 'react-bootstrap-icons';
-import {FacebookShareButton,LinkedinShareButton,TwitterShareButton,WhatsappShareButton} from "react-share";
+import {FacebookShareButton,LinkedinShareButton,TwitterShareButton,WhatsappShareButton, Inst} from "react-share";
 
 //import styles from '../../styles/Home.module.css'
 //import { faHome } from "@fortawesome/free-solid-svg-icons";
@@ -55,7 +55,7 @@ export default function Footer(){
 
       <Row className= "mt-2">
 				<Col xs={12} sm={12} md={12}className="mt-2 text-center text-white" >
-        	<p className="h6 text-center">© Made by ARCHIPEL 2020 </p>
+        	<p className="h6 text-center">© Made by ARCHIPEL 2020  all right reserved</p>
           
 				</Col>	
         </Row>
