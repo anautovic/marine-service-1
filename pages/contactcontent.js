@@ -24,7 +24,6 @@ return(
 
 <div className= "contain">
         
-       
           <h5 className= "text-center">  Tel: +33 749 449 619/ +239 991 17586</h5>
           <h5 className= "text-center"> Location: Rue morta, ao lado do BISTP Sao Tomé et principe</h5>
           <h5 className= "text-center"> Mail: info@macgregor-ms.com</h5>
@@ -63,6 +62,7 @@ return(
         border:none;
     }
     .contain{
+margin-top: 5px;
 width:100%;
 height:200px;
 color: #0070f3;
