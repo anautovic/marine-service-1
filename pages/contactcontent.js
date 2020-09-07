@@ -23,7 +23,7 @@ return(
 <Container className ="mb-4">
 
 <div className= "contain">
-        <h2 className= "text-center" >Contactez nous</h2>
+        
        
           <h5 className= "text-center">  Tel: +33 749 449 619/ +239 991 17586</h5>
           <h5 className= "text-center"> Location: Rue morta, ao lado do BISTP Sao Tomé et principe</h5>
