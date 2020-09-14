@@ -48,7 +48,6 @@ return(
        
     </Col>
     <Col md={6} >
-    <iframe className="embed-responsive-item" frameborder="0"src='https://forms.zohopublic.com/macgregor/form/ContactForm/formperma/wL4iCFBIsbzEy-9AQPkzHY86nNXjOnhyrKJTNE7lqhY'></iframe>
     
     </Col>
     </Row>
