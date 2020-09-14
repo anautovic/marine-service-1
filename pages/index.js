@@ -17,36 +17,7 @@ export default function Home() {
       <link rel="icon" href="/favicon.PNG" />
       
     </Head>
-    <NextSeo
-      title="MacGregor Marine service "
-      description="est une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée. Nous offrons une solution pour chaque type d’opération."
-      canonical="https://marine-service.vercel.app/"
-      openGraph={{
-        url: 'https://marine-service.vercel.app',
-        title: 'MacGregor Marine services',
-        description: 'une entreprise spécialisée dans les services maritimes et l’affrètement dans le golfe de guinée.',
-        images: [
-          {
-            url: 'https://marine-service.vercel.app/barge.jpg',
-            width: 800,
-            height: 600,
-            alt: 'barge macgregor',
-          },
-          {
-            url: 'https://marine-service.vercel.app/remorqueur.jpg',
-            width: 900,
-            height: 800,
-            alt: 'Og Remorqueur Macgregor marine service',
-          },
-          { url: 'https://marine-service.vercel.app/macgregor logo.png' },
-          { url: 'https://marine-service.vercel.app/paysage.png' },
-        ],
-        site_name: 'Macgregor marine service',
-      }}
-   
-   
-   
-   />
+  
    <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v8.0" nonce="RMqTbJvu"></script>      
 
