@@ -70,9 +70,7 @@ export default function Servicelist() {
       </Col>
   </Row>
 <Row>
-  <Col>
-  <FacebookIcon size={40} round={true} /><FacebookShareCount url={"https://marines-service.vercel.app/contact"} /><div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
-  </Col>
+ 
   <Col>
   <Button variant="outline-success" className="mr-5" href="Brochure Macgregor FR.pdf" download><Download color="green" size={20} /> Brochure_Fr</Button>
   </Col>
