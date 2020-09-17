@@ -6,10 +6,9 @@ export default function  Contact (){
     return(
         <div>
 <Header />
-<div className="col">
-    <Contactcontent />
-    </div>
+<Contactcontent />
+<Footer />
 
-       </div>
+        </div>
     )
 }
