@@ -69,6 +69,29 @@ export default function Header() {
 <Carousel.Caption>
 </Carousel.Caption>
   </Carousel.Item>
+  
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="marine-service (3).jpeg"
+      width="100"
+      height="400"
+      alt="mer golfe guinée 3"
+    />
+<Carousel.Caption>
+</Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="marine-service (6).jpeg"
+      width="100"
+      height="400"
+      alt="mer golfe guinée 6"
+    />
+<Carousel.Caption>
+</Carousel.Caption>
+  </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"

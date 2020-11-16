@@ -44,7 +44,7 @@ export default function Footer(){
           <Col xs={7} md={6} lg={6}>
           <h5  >Contactez nous</h5>
         <ul className="list-unstyled text-small">
-          <li><a className="text-white" ><TelephoneFill color="white" size={20} />   Tel: +33 749 449 619/ +239 991 17586</a></li>
+          <li><a className="text-white" ><TelephoneFill color="white" size={20} />   Tel: +33 749 449 619/ +239 991 7586</a></li>
           <li><a className="text-white" > <GeoAlt color="white" size={20} />  Location: Rue morta, ao lado do BISTP Sao Tomé et principe</a></li>
           <li><a className="text-white" ><EnvelopeFill color="white" size={20} /> Mail: info@macgregor-ms.com</a></li>
           <li><a className="text-white" >  Terms</a></li>
