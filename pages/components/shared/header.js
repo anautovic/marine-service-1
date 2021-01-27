@@ -47,6 +47,19 @@ export default function Header() {
 </Carousel.Caption>
   </Carousel.Item>
 
+
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="image1.png"
+      width="100"
+      height="400"
+      alt="Joyeux noël 2021"
+    />
+<Carousel.Caption>
+</Carousel.Caption>
+  </Carousel.Item>
+
   <Carousel.Item>
     <img
       className="d-block w-100"
