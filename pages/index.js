@@ -16,6 +16,9 @@ export default function Home() {
       <title>Mac Gregor Marine service</title>
       <link rel="icon" href="/favicon.PNG" />
       
+      <script type="text/javascript" src="/whatsap.js"></script>
+    
+      
     </Head>
     <NextSeo
       title="MacGregor Marine service "
@@ -50,7 +53,7 @@ export default function Home() {
    <div id="fb-root"></div>
 <script async defer crossOrigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v8.0" nonce="RMqTbJvu"></script>      
 
-      
+
      
      <div className="container mt-5">
       <Row>
